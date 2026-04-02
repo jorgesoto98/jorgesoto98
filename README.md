@@ -1,5 +1,3 @@
-<div align="center">
-
 ### Software Developer
 
 Working at **[IS del Norte](https://isdelnorte.com)** in Monterrey, Mexico — building web & mobile applications
@@ -23,5 +21,3 @@ Working at **[IS del Norte](https://isdelnorte.com)** in Monterrey, Mexico — b
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-</div>
