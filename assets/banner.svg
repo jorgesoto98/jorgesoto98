@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Jorge Soto — Software Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#001a33"/>
+      <stop offset="0.55" stop-color="#003462"/>
+      <stop offset="1" stop-color="#0a4d8c"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3fa9f5" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#3fa9f5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7cd4ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7cd4ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.08"/>
+    </pattern>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#9fdcff"/>
+    </linearGradient>
+    <clipPath id="r"><rect width="1200" height="320" rx="18"/></clipPath>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .floatA { animation: floatA 9s ease-in-out infinite; }
+      .floatB { animation: floatB 12s ease-in-out infinite; }
+      .caret { animation: blink 1s steps(1) infinite; }
+      @keyframes floatA { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-60px,25px); } }
+      @keyframes floatB { 0%,100% { transform: translate(0,0); } 50% { transform: translate(70px,-20px); } }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+    <circle class="floatA" cx="980" cy="70" r="260" fill="url(#glowA)"/>
+    <circle class="floatB" cx="760" cy="300" r="200" fill="url(#glowB)"/>
+
+    <!-- brackets decorativos -->
+    <g fill="none" stroke="#9fdcff" stroke-opacity="0.28" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="1000,110 940,160 1000,210"/>
+      <polyline points="1080,110 1140,160 1080,210"/>
+      <line x1="1060" y1="100" x2="1020" y2="220"/>
+    </g>
+
+    <g transform="translate(72,0)">
+      <text class="mono" x="0" y="92" font-size="18" fill="#7cd4ff" letter-spacing="2">HI, I’M</text>
+      <text class="sans" x="-3" y="158" font-size="64" font-weight="800" fill="url(#txt)">Jorge Soto</text>
+      <text class="sans" x="0" y="198" font-size="22" fill="#d6ecff" fill-opacity="0.9">Software Developer · IS del Norte · Monterrey, MX</text>
+
+      <text class="mono" x="0" y="253" font-size="20" fill="#ffffff" fill-opacity="0.85"><tspan fill="#3fa9f5">❯</tspan> building web &amp; mobile apps<tspan class="caret" fill="#3fa9f5">▍</tspan></text>
+    </g>
+  </g>
+</svg>
